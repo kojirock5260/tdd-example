@@ -1,0 +1,19 @@
+{
+    "name": "kojirock5260/tdd-example",
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kojirock5260\\TddExample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kojirock5260\\TddExample\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/"
+    }
+}
